@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../font/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/layui.css" />
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+</head>
+
+<body>
+    <div class="topAD"></div>
+    <div class="topNav">
+        <div class="iwidth">
+            <div class="left">
+                <a href="javascript:;">小米商城</a><span class="sep">|</span>
+                <a href="javascript:;">MIUI</a><span class="sep">|</span>
+                <a href="javascript:;">loT</a><span class="sep">|</span>
+                <a href="javascript:;">云服务</a><span class="sep">|</span>
+                <a href="javascript:;">水滴</a><span class="sep">|</span>
+                <a href="javascript:;">金融</a><span class="sep">|</span>
+                <a href="javascript:;">有品</a><span class="sep">|</span>
+                <a href="javascript:;">Select Region</a>
+            </div>
+            <div class="right">
+                <div class="login">
+                    <a href="login.html">登陆</a><span class="sep">|</span>
+                    <a href="register.html">注册</a><span class="sep">|</span>
+                    <a href="javascript:;">消息通知</a>
+                </div>
+                <div class="logined">
+                	<a href="javascript:;" id="user" class="loginedbox"></a>
+                	<span class="sep sepbox">|</span>
+                	<a href="javascript:;" id="news" class="loginedbox">消息通知</a>
+                	<span class="sep sepbox">|</span>
+                	<a href="javascript:;" id="order" class="loginedbox">用户订单</a>
+                </div>
+                <a href="javascript:;" class="shopcar">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <span id="shopcarnum">购物车(0)</span>
+                    <div id="commodity">
+                        购物车中还没有商品，赶紧选购吧
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--顶部导航-->
+    <div class="Nav">
+        <div class="iwidth">
+            <a href="##" class="logo">
+                <img src="../img/mi-logo.png" />
+            </a>
+            <div class="empty"></div>
+            <div class="mid">
+                <div class="name" id="miphone">
+                    <a href="javascript:;">小米手机</a>
+                    <ul id="umiphone"></ul>
+                </div>
+                <div class="name" id="rmphone">
+                    <a href="javascript:;">红米</a>
+                    <ul id="urmphone"></ul>
+                </div>
+                <div class="name" id="notecom">
+                    <a href="javascript:;">笔记本</a>
+                    <ul id="unotecom"></ul>
+                </div>
+                <div class="name" id="tv">
+                    <a href="javascript:;">电视机</a>
+                    <ul id="utv"></ul>
+                </div>
+                <div class="name" id="mibox">
+                    <a href="javascript:;">盒子</a>
+                    <ul id="umibox"></ul>
+                </div>
+                <div class="name" id="minew">
+                    <a href="javascript:;">新品</a>
+                    <ul id="uminew"></ul>
+                </div>
+                <div class="name" id="wlan">
+                    <a href="javascript:;">路由器</a>
+                    <ul id="uwlan"></ul>
+                </div>
+                <div class="name" id="hard">
+                    <a href="javascript:;">智能硬件</a>
+                    <ul id="uhard"></ul>
+                </div>
+                <div class="name" id="servive">
+                    <a href="javascript:;">服务</a>
+                </div>
+                <div class="name" id="community">
+                    <a href="javascript:;">社区</a>
+                </div>
+            </div>
+            <div class="right">
+                <input type="text" name="" id="searchbox" value="" />
+                <a href="javascript:;" class="iconfont icon-searchbtn" id="search"></a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="iwidth">
+            <div class="swiper-container" id="swiper1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;"><img src="../img/xmad_15103266882367_GoKWx.jpg" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;"><img src="../img/xmad_15115167574154_yfgXj.jpg" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;"><img src="../img/xmad_15120210363031_kRyBf.jpg" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;"><img src="../img/xmad_15121088855349_nqtNv.jpg" alt="" /></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;"><img src="../img/xmad_15123529647816_KxTNX.jpg" alt="" /></a>
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev">
+                    <i class="iconfont icon-arrow1-copy"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="iconfont icon-arrow1-copy"></i>
+                </div>
+            </div>
+            <ul class="BanNav">
+                <li><a href="#" target="_blank">手机 电话卡</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">笔记本 平板</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">电视 盒子</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">路由器 智能硬件</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">移动电源</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">耳机 音箱</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">保护套 贴膜</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">线材 支架 存储卡</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">箱包 服饰 鞋 眼睛</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+                <li><a href="#" target="_blank">米兔 生活周边</a><i class="iconfont icon-iconfontyoujiantou"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="subrow">
+        <ul class="box1">
+            <li><a href="javascript:;"><i class="iconfont icon-mobile-devices"></i></br>选购手机</a></li>
+            <li><a href="javascript:;"><i class="iconfont icon-37"></i></br>企业团购</a><b></b></li>
+            <li><a href="javascript:;"><i class="iconfont icon-fma"></i></br>F码通道</a><b></b></li>
+            <li><em></em><a href="javascript:;"><i class="iconfont icon-SIMqiaguanli"></i></br>米粉卡</a></li>
+            <li><em></em><a href="javascript:;"><i class="iconfont icon-yijiuhuanxin"></i></br>以旧换新</a><b></b></li>
+            <li><em></em><a href="javascript:;"><i class="iconfont icon-chongzhi"></i></br>话费充值</a><b></b></li>
+        </ul>
+        <div class="sub1">
+            <a href="javascript:;"><img src="../img/xmad_15118567982799_tyVRB.jpg" alt="" /></a>
+        </div>
+        <div class="sub2">
+            <a href="javascript:;"><img src="../img/xmad_15040042066703_boRui.jpg" alt="" /></a>
+        </div>
+        <div class="sub3">
+            <a href="javascript:;"><img src="../img/xmad_15015006045059_PEafU.jpg" alt="" /></a>
+        </div>
+    </div>
+    <div id="star">
+        <h2>小米明星单品</h2>
+        <div class="more">
+            <i class="iconfont icon-arrow1-copy" id="star_left"></i>
+            <i class="iconfont icon-arrow1-copy" id="star_right"></i>
+        </div>
+        <ul id="star_ul"></ul>
+    </div>
+    <div id="content">
+	    	<!--<div class="layui-tab">
+				<ul class="layui-tab-title">
+				    <li class="layui-this">网站设置</li>
+				    <li>用户管理</li>
+				    <li>权限分配</li>
+				    <li>商品管理</li>
+				    <li>订单管理</li>
+				</ul>
+				<div class="layui-tab-content layui-tab-brief">
+				    <div class="layui-tab-item layui-show">内容1</div>
+				    <div class="layui-tab-item">内容2</div>
+				    <div class="layui-tab-item">内容3</div>
+				    <div class="layui-tab-item">内容4</div>
+				    <div class="layui-tab-item">内容5</div>
+				</div>
+			</div>
+	    	<div id="electrical">
+	    		<h2>家电</h2>
+	    		<ul class="ele">
+                    <li><a href="#" class="a1">热门</a></li>
+                    <li><a href="#">电视静音</a></li>
+                    <li><a href="#">电脑</a></li>
+                    <li><a href="#">家居</a></li>
+               </ul>
+                <div class="ele_left">
+	            	<div class="left1">
+	                	<img src="../img/1695c18e-8a6b-4bc9-9796-d5abad413184.jpg"/>
+	                </div>
+	            </div>
+	            <div id="ele_right">
+	            	<ul id="ele_right_ul">
+	            		<li>
+	                    	<p class="w1">享9.2折</p>
+	                    	<a href="#" traget="_blank"><img src=""><p>小米电视4A 32"</p></a>
+	                        <p class="w2">64位四核处理器／1GB+4GB大内存</p>
+	                        <p class="w3">1099元 <span>1199元</span></p>
+	                        <div class="zz">
+	                        	<a href="#" traget="_blank">
+	                            	<p class="w4">可以连wifi，不用盒子也能行，支持国产。万水千山总...</p>
+	                        		<p class="w5"> 来自于 表情 的评价 </p>
+	                            </a>
+	                        </div>
+	                    </li>
+	            	</ul>
+	            </div>
+	    	</div>-->
+	</div>
+    <div id="footer">
+        <div class="bottom">
+            <ul class="title1">
+                <li><a href="#">预约修理服务</a></li>
+                <li><a href="#">7天无理由退货</a></li>
+                <li><a href="#">15天免费换货</a></li>
+                <li><a href="#">满150元包邮</a></li>
+                <li class="last"><a href="#">520余家售后网点</a></li>
+            </ul>
+        </div>
+        <div class="finally">
+            <div class="iwidth">
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd><a href="#">账户管理</a></dd>
+                    <dd><a href="#">购物指南</a></dd>
+                    <dd><a href="#">订单操作</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务支持</dt>
+                    <dd><a href="#">售后政策</a></dd>
+                    <dd><a href="#">自助服务</a></dd>
+                    <dd><a href="#">相关下载</a></dd>
+                </dl>
+                <dl>
+                    <dt>线下门店</dt>
+                    <dd><a href="#">小米之家</a></dd>
+                    <dd><a href="#">服务网点</a></dd>
+                    <dd><a href="#">零售网点</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于小米</dt>
+                    <dd><a href="#">了解小米</a></dd>
+                    <dd><a href="#">加入小米</a></dd>
+                    <dd><a href="#">联系我们</a></dd>
+                </dl>
+                <dl>
+                    <dt>关注我们</dt>
+                    <dd><a href="#">新浪微博</a></dd>
+                    <dd><a href="#">小米之家</a></dd>
+                    <dd><a href="#">官方微信</a></dd>
+                </dl>
+                <dl>
+                    <dt>特色服务</dt>
+                    <dd><a href="#">F码通道</a></dd>
+                    <dd><a href="#">礼物码</a></dd>
+                    <dd><a href="#">防伪查询</a></dd>
+                </dl>
+                <div class="tel">
+                    <p class="phone">400-100-5678</p>
+                    <p class="word">周一至周日 8:00-18:00</br>（仅收市话费）</p>
+                    <a href="#" class="hour">24小时在线客服</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bg">
+            <div class="ft">
+                <div class="f-left">
+                    <img src="../img/logo-footer.png" />
+                    <ul>
+                        <li><a href="javascript:;">小米网</a></li>
+                        <li><a href="javascript:;">MIUI</a></li>
+                        <li><a href="javascript:;">米聊</a></li>
+                        <li><a href="javascript:;">多看书城</a></li>
+                        <li><a href="javascript:;">小米路由器</a></li>
+                        <li><a href="javascript:;">小米后院</a></li>
+                        <li><a href="javascript:;">小米天猫店</a></li>
+                        <li><a href="javascript:;">小米网盟</a></li>
+                        <li><a href="javascript:;">问题反馈</a></li>
+                        <li><a class="nobor" href="javascript:;">Select Region</a></li>
+                    </ul>
+                    <p><a href="#">?mi.com</a> 京ICP证110507 <a href="#">京ICP备10046444号</a><a href="#"> 京公安备1101080212535号</a> <a href="#">京网文[2014]0059-0009号</a></p>
+                    <p>违法和不良信息举报电话：185-0130-1238，本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+                </div>
+                <ul class="f-right">
+                    <li>
+                        <a href="##"><img src="../img/truste.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="##"><img src="../img/v-logo-2.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="##"><img src="../img/v-logo-1.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="##"><img src="../img/v-logo-3.png" alt="" /></a>
+                    </li>
+                    <li>
+                        <a href="##"><img src="../img/ba10428a4f9495ac310fd0b5e0cf8370.png" alt="" /></a>
+                    </li>
+                </ul>
+                <div class="slogan">探索黑科技，小米为发烧而生</div>
+            </div>
+        </div>
+    </div>
+    <script src="../script/pulg/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../script/lib/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../script/lib/pool.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../script/pulg/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../script/js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

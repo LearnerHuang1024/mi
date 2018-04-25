@@ -1,0 +1,204 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ul>li{
+	list-style: none;
+}
+img{
+	display: block;
+	border:0;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	width: 1130px;
+	margin:0 auto;
+}
+#header a{
+	display: block;
+}
+#content{
+	height: 588px;
+	background: url(../img/c8ad93a6141b95c9615fba58d6c16dea.jpg) no-repeat center center;
+}
+#box{
+	width: 1130px;
+	margin: 0 auto;
+	position: relative;
+}
+#login{
+	width: 410px;
+	min-height: 524px;
+	position: absolute;
+	right: 0;
+	background: #fff;
+	margin: 32px auto;
+}
+.title{
+	padding: 27px 0 24px;
+	text-align: center;
+	font-size: 24px;
+	color: #e0e0e0;
+	line-height: 30px;
+	height: 30px;
+	
+}
+.title span{
+	display: inline-block;
+	height: 30px;
+	margin-top:-5px;
+	vertical-align: middle;
+}
+.title .line{
+	width: 2px;
+	height: 30px;
+	margin: 0 35px;
+	background: #e0e0e0;
+	vertical-align:top;
+}
+.title #Signin,#QRcode{
+	cursor: pointer;
+}
+#QRcode{
+	color: #666;
+}
+input{
+	display: block;
+	padding: 13px 16px 13px 14px;
+	line-height: 22px;
+	color: #333;
+	outline: 0;
+	border: 1px solid #e0e0e0;
+	width: 316px;
+	margin: 14px auto;
+}
+fieldset{
+	width: 346px;
+	border: 0;
+	border-top: 1px solid #e0e0e0;
+	padding-top:10px ;
+	margin: 0 auto;
+}
+legend{
+	font-size: 14px;
+	color: #bbb;
+	margin: 0 auto;
+	text-align: center;
+}
+.buttom{
+	display: block;
+	background: #f56600;
+	width: 346px;
+	height: 50px;
+	margin: 10px auto 14px;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+}
+.loginfoot{
+	font-size:14px ;
+	overflow: hidden;
+	width: 346px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+}
+.loginfoot .left{
+	float: left;
+}
+.loginfoot .left a{
+	color: #ef5b00;
+}
+.loginfoot .right{
+	float: right;
+	color: #999;
+}
+.loginfoot .right a{
+	color: #999;
+}
+.other a{
+	line-height: 36px;
+	color:#757575;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin:0 26px;
+	font-size: 30px;
+	vertical-align: top;
+}
+.other{
+	width: 346px;
+	margin:10px auto;
+	
+}
+.other .icon-qq{
+	font-size: 37px;
+}
+.other .icon-qq:hover{
+	color: deepskyblue;
+}
+.other .icon-wx:hover{
+	color: #62b900;
+}
+.other .icon-zfb:hover{
+	color: skyblue;
+}
+.other .icon-wb:hover{
+	color: red;
+}
+#Signinshow{
+	position: absolute;
+	top: 80px;
+	width: 346px;
+	left: 32px;
+	display: block;
+}
+#mobile1show{
+	position: absolute;
+	top: 80px;
+	width: 346px;
+	left: 32px;
+	display: none;
+}
+#QRcodeshow{
+	position: absolute;
+	padding-top:78px;
+	top: 80px;
+	width: 346px;
+	left: 32px;
+	display: none;
+}
+#QRcodeshow img{
+	margin:0 auto;
+}
+#QRcodeshow .word{
+	padding-top:14px ;
+	font-size: 12px;
+	color: #757575;
+	text-align: center;
+}
+#QRcodeshow .word span{
+	color: #ff6700;
+} 
+#Signin{
+	color: #ff6700;
+}
+#footer{
+	margin-top: 100px;
+	color: #757575;
+	text-align: center;
+	height: 80px;
+}
+#footer a{
+	color: #757575;
+}
+#footer .one a{
+	padding: 0 10px;
+}
+#footer img{
+	display: inline-block;
+}
+#footer .one{
+	padding: 10px;
+}
